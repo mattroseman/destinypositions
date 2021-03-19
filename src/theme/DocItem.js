@@ -1,10 +1,16 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import OriginalDocItem from '@theme-original/DocItem';
 
 function DocItem(props) {
-  const { siteConfig } = useDocusaurusContext();
+  const {
+    siteConfig: {
+      customFields: {
+        defaultFAQ
+      }
+    }
+  } = useDocusaurusContext();
   const {
     content: {
       frontMatter: {
@@ -13,10 +19,12 @@ function DocItem(props) {
     }
   } = props;
 
-  const structuredData = faq ? {
+  const questions = faq || defaultFAQ || {};
+
+  const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faq.map(question => ({
+    mainEntity: questions.map(question => ({
       '@type': 'Question',
       name: question.question,
       acceptedAnswer: {
@@ -24,7 +32,7 @@ function DocItem(props) {
         text: question.answer
       }
     }))
-  } : {};
+  };
 
   return (
     <>

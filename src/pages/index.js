@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -64,9 +65,28 @@ function Feature({num, title, iconName, description}) {
 
 function Home() {
   const {siteConfig = {}} = useDocusaurusContext();
+
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: siteConfig?.customFields?.defaultFAQ.map(question => ({
+      '@type': 'Question',
+      name: question.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: question.answer
+      }
+    }))
+  };
+
   return (
-    <Layout
-      description={siteConfig.customFields.metaDescription}>
+    <Layout description={siteConfig.customFields.metaDescription}>
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <img src={useBaseUrl('img/dgg-logo.svg')} height="100px" />

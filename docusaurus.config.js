@@ -10,6 +10,12 @@ module.exports = {
   projectName: 'destinypositions', // Usually your repo name.
   customFields: {
     metaDescription: 'Steven (Destiny) Bonnell II is a professional streamer, primarily playing games, but will often venture off into other topics, including but not limited to: philosophy, youtube videos, music and all sorts of wonderful pseudo-intellectualism.',
+    defaultFAQ: [
+      {
+        question: 'some default question',
+        answer: 'some default answer'
+      },
+    ],
   },
   themeConfig: {
     // Vanilla settings
