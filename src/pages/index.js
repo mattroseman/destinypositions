@@ -1,11 +1,12 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+
+import StructuredData from '/src/components/StructuredData';
 
 const features = [
   {
@@ -66,26 +67,9 @@ function Feature({num, title, iconName, description}) {
 function Home() {
   const {siteConfig = {}} = useDocusaurusContext();
 
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: siteConfig?.customFields?.defaultFAQ.map(question => ({
-      '@type': 'Question',
-      name: question.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: question.answer
-      }
-    }))
-  };
-
   return (
     <Layout description={siteConfig.customFields.metaDescription}>
-      <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
-      </Helmet>
+      <StructuredData faq={siteConfig?.customFields?.defaultFAQ} />
 
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">

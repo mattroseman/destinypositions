@@ -1,9 +1,10 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import OriginalDocItem from '@theme-original/DocItem';
 
-function DocItem(props) {
+import StructuredData from '/src/components/StructuredData';
+
+export default function DocItem(props) {
   const {
     siteConfig: {
       customFields: {
@@ -19,32 +20,11 @@ function DocItem(props) {
     }
   } = props;
 
-  const questions = faq || defaultFAQ || {};
-
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: questions.map(question => ({
-      '@type': 'Question',
-      name: question.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: question.answer
-      }
-    }))
-  };
-
   return (
     <>
-      <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
-        </script>
-      </Helmet>
+      <StructuredData faq={faq || defaultFAQ || []} />
 
       <OriginalDocItem {...props} />
     </>
   );
 }
-
-export default DocItem;
