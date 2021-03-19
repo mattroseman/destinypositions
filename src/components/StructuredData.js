@@ -2,6 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 export default function StructuredData({ faq = [] }) {
+  // don't bother adding any structured data if no questions
+  if (faq.length == 0) {
+    return null;
+  }
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
