@@ -8,19 +8,30 @@ function DocItem(props) {
   const {
     content: {
       frontMatter: {
-        title
+        faq
       }
     }
   } = props;
 
-  useEffect(() => {
-    console.log(title);
-  }, []);
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(question => ({
+      '@type': 'Question',
+      name: question.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: question.answer
+      }
+    }))
+  };
 
   return (
     <>
       <Helmet>
-        <meta name="test" content={title} />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Helmet>
 
       <OriginalDocItem {...props} />

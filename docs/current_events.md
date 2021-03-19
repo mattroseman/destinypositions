@@ -2,6 +2,11 @@
 id: current_events
 title: Current Events
 description: My arguments about recent events and the prevailing narratives around them.
+faq:
+  - question: some question
+    answer: some answer
+  - question: some other question
+    answer: some other answer
 ---
 
 ## The GameStop short squeeze
