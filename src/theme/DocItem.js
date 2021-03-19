@@ -13,7 +13,7 @@ function DocItem(props) {
     }
   } = props;
 
-  const structuredData = {
+  const structuredData = faq ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: faq.map(question => ({
@@ -24,7 +24,7 @@ function DocItem(props) {
         text: question.answer
       }
     }))
-  };
+  } : {};
 
   return (
     <>
