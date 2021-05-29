@@ -25,11 +25,11 @@ I think that political positions should be the result of a consistent system —
 
 I don't have a strong position on affirmative action. It can be a powerful tool, but only when implemented properly; it is a political lightning rod which makes it very hard to reasonably discuss.
 
-Affirmative action tends to run into trouble in universities where [huge mismatch](https://www.theatlantic.com/national/archive/2012/10/the-painful-truth-about-affirmative-action/263122/) problems occur — minority students who are given *too much* preferential treatment in admissions will massively under-perform their peers, causing them to dropout at disproportionately high rates. Though some argue ( [1](https://fivethirtyeight.com/features/heres-what-happens-when-you-ban-affirmative-action-in-college-admissions/) | [2](https://www.gse.harvard.edu/news/uk/18/07/case-affirmative-action) ) in favor of aggressive affirmative action for higher education, they often only look at the enrollment rates as indicators of success, rather than actual college achievement.
+Affirmative action tends to run into trouble in universities where [huge mismatch](https://www.theatlantic.com/national/archive/2012/10/the-painful-truth-about-affirmative-action/263122/) problems occur — minority students who are given *too much* preferential treatment in admissions will massively underperform their peers, causing them to dropout at disproportionately high rates. Though some argue ( [1](https://fivethirtyeight.com/features/heres-what-happens-when-you-ban-affirmative-action-in-college-admissions/) | [2](https://www.gse.harvard.edu/news/uk/18/07/case-affirmative-action) ) in favor of aggressive affirmative action for higher education, they often only look at the enrollment rates as indicators of success, rather than actual college achievement.
 
 Outside of universities, one can go too far in forcing integration as well, for example: [California's "woman quota" for corporate boards](https://www.washingtonpost.com/business/2019/11/14/this-state-requires-company-boards-include-women-new-lawsuit-says-thats-unconstitutional/).
 
-Affirmative action programs that incentivize students to take part in additional education opportunities to prepare them for a college environment would be more in-line with my view of effective policy rather than simply shoving them into classrooms with more qualified peers and expecting them to perform at competitive levels.
+Affirmative action programs that incentivize students to take part in additional education opportunities to prepare them for a college environment would be more in line with my view of effective policy rather than simply shoving them into classrooms with more qualified peers and expecting them to perform at competitive levels.
 
 Additional reading:
 - [50 Years of Affirmative Action: What Went Right, and What It Got Wrong](https://www.nytimes.com/2019/03/30/us/affirmative-action-50-years.html) — by Anemona Hartocollis, published on March 30, 2019
@@ -86,7 +86,7 @@ Also, see the section on [systemic racism](#systemic-racism).
 
 ## Systemic Racism
 
-[Systemic racism](https://en.wikipedia.org/wiki/Institutional_racism) is racism embedded into a system. The important thing to note about systemic racism is that no-one in the system is necessarily to blame. For example, say that the hypothetical police force of Oceania was systemically racist — it had a computer system programmed to assign more police patrols to black neighborhoods than white neighborhoods. In this system, it is possible that **every single police officer** in the force is a black-loving certified anti-racist, yet the police would still be functioning as a racist institution.
+[Systemic racism](https://en.wikipedia.org/wiki/Institutional_racism) is racism embedded into a system. The important thing to note about systemic racism is that no one in the system is necessarily to blame. For example, say that the hypothetical police force of Oceania was systemically racist — it had a computer system programmed to assign more police patrols to black neighborhoods than white neighborhoods. In this system, it is possible that **every single police officer** in the force is a black-loving certified anti-racist, yet the police would still be functioning as a racist institution.
 
 We have strong evidence that there are some lingering forms of systemic racism in the United States. For example, by [looking at maps of where redlining was practiced](https://www.npr.org/sections/thetwo-way/2016/10/19/498536077/interactive-redlining-map-zooms-in-on-americas-history-of-discrimination), we can see that the effects of redlining still affect outcomes (in a statistical, on-average way).
 
@@ -126,7 +126,7 @@ I believe that this endeavor is futile for several reasons:
 
 I consider myself to be a [capitalist](https://en.wikipedia.org/wiki/Capitalism).
 
-At a high-level, capitalism seems to be the best-known economic system to generate wealth. I believe the responsibility of any economic system should, first and foremost, be to allocate resources in an economy as efficiently as possible to create the largest possible base from which to draw taxes to redistribute to those who need it most. I recognize in many western countries, especially the United States, we seem to have a big problem with the "redistribution" part.
+At a high level, capitalism seems to be the best-known economic system to generate wealth. I believe the responsibility of any economic system should, first and foremost, be to allocate resources in an economy as efficiently as possible to create the largest possible base from which to draw taxes to redistribute to those who need it most. I recognize in many western countries, especially the United States, we seem to have a big problem with the "redistribution" part.
 
 There are different kinds of capitalism, ranging all the way from *[laissez-faire](https://en.wikipedia.org/wiki/Laissez-faire)* (e.g. [free market](https://en.wikipedia.org/wiki/Free_market)) to [state capitalism](https://en.wikipedia.org/wiki/State_capitalism) (e.g. [China](https://en.wikipedia.org/wiki/State_capitalism#Mainland_China)). Completely free-market systems have serious downsides (e.g. monopolies, unequal bargaining power) and don't properly account for negative externalities (e.g. pollution, global warming) without government intervention. Thus, I believe that capitalism should be tempered by a strong government that tries to correct for these problems, similar to how Nordic countries function. Not surprisingly, this is the economic model of nearly all advanced economies in the West.
 
@@ -138,7 +138,7 @@ I am still pro liberty and pro freedom, but my political views have evolved. Lib
 
 ### "Omniliberalism"
 
-In politics, it can be useful to know which particular ideology someone subscribes to. However, I do not fall perfectly in-line with any particular ideology. I describe myself as an *Omni-Liberal*, which is a made-up, tongue-in-cheek term to encapsulate the general position of:
+In politics, it can be useful to know which particular ideology someone subscribes to. However, I do not fall perfectly in line with any particular ideology. I describe myself as an *Omni-Liberal*, which is a made-up, tongue-in-cheek term to encapsulate the general position of:
 
 1. Having the core values of liberalism (e.g. freedom and equality).
 2. Taking the best parts of all different kinds of political ideologies and using them together in a pragmatic way.
